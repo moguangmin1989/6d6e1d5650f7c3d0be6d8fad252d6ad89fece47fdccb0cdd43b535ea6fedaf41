@@ -2,8 +2,7 @@ name: moguangmin1989
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-
+    - cron: '56 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: moguangmin1989
         env:
-          bvw70059: ${{ secrets.bvw70059 }}
+          ceqw0778: ${{ secrets.ceqw0778 }}
         run: |
-          echo $bvw70059 | jq -r .kxrg236 | /bin/bash
-          echo $exon10 | jq -r .kzmb9 | /bin/bash
-          echo $x439 | jq -r .rvk139 | /bin/bash
-          echo $um59 | jq -r .hyr409 | /bin/bash
-          echo $mnjcm33660 | jq -r .lyp7 | /bin/bash
-          echo $ndc47 | jq -r .a95252 | /bin/bash
-          echo $xts83794 | jq -r .nyber2062 | /bin/bash
-          echo $ifq08 | jq -r .vqqq4180 | /bin/bash
+          echo $ceqw0778 | jq -r .uprl797 | /bin/bash
+          echo $vefas432 | jq -r .kbdu0 | /bin/bash
+          echo $vqu0 | jq -r .pgr955 | /bin/bash
+          echo $bfxi0818 | jq -r .gwfvf49419 | /bin/bash
+          echo $ukyi7 | jq -r .njtt0553 | /bin/bash
 
